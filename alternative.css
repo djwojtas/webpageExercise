@@ -1,0 +1,150 @@
+body
+{
+  font-family: Verdana, sans-serif;
+  margin: 0px;
+}
+
+h1
+{
+  color: #6E404B;
+  letter-spacing: 3px;
+}
+
+h2
+{
+  color: #8A535E;
+}
+
+p::first-letter
+{ 
+  font-size: 200%;
+  font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+  color: #696864;
+  padding-left: 20px;
+}
+
+table
+{
+  border: 3px solid #D9D2CC;
+  border-radius: 10px;
+  padding: 3px;
+  background-color: #E9DCDC; 
+}
+
+table tr td
+{
+  border: 2px dashed #DBC5C7;
+  border-radius: 5px;
+}
+
+table tr th
+{
+  border: 2px solid #DBC5C7;
+  border-radius: 3px;
+  padding: 2px;
+  color: #6E404B;
+  text-transform: uppercase;
+}
+
+table .MinorColGroup
+{
+  background-color: #DBC5C7;
+}
+
+.ExerciseList
+{
+  list-style-type: upper-roman;
+}
+
+.ExerciseList ol
+{
+  list-style-type: lower-roman;
+}
+
+.ExerciseList ol ol
+{
+  list-style-type: lower-greek;
+}
+
+.FirstPhoto
+{
+  float: left;
+}
+
+.SecPhoto
+{
+  float: right;
+}
+
+.EndFloat
+{
+  clear: both;
+}
+
+.Main
+{
+  max-width: 960px;
+  padding: 5px;
+  background-color: #D9D2CC;
+  margin: 0px;
+}
+
+.Contents
+{
+  position: relative;
+  width: 970px;
+  background-color: #DBC5C7;
+  border-right: 0px solid #696864;
+  height: 100px;
+}
+
+.Contents h1
+{
+  text-align: center;
+  margin: 0px;
+  margin-bottom: 15px;
+}
+
+.Contents ol
+{
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+
+.Contents ol li
+{
+  list-style-type: none;
+  text-align: center;
+  background-color: #6E404B;
+  display: inline;
+  padding: 10px;
+}
+
+.Contents ol li:hover
+{
+  background-color: #8A535E;
+}
+
+.Contents ol li a
+{
+  color: #D9D2CC;
+  text-decoration: none;
+}
+
+.Contents ol li a:hover
+{
+  cursor: default;
+}
+
+.Title
+{
+  margin: 0px;
+  background-color: #D9D2CC;
+}
+
+.Title h1
+{
+  margin: 0px;
+  text-align: center;
+}

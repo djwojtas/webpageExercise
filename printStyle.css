@@ -1,0 +1,86 @@
+body
+{
+  font-family: Verdana, sans-serif;
+}
+
+h1
+{
+  color: black;
+  letter-spacing: 3px;
+}
+
+p::first-letter
+{ 
+  font-size: 200%;
+  font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+  padding-left: 20px;
+}
+
+table
+{
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 3px;
+}
+
+table tr td
+{
+  border: 2px dashed grey;
+  border-radius: 5px;
+}
+
+table tr th
+{
+  border: 2px solid grey;
+  border-radius: 3px;
+  padding: 2px;
+  text-transform: uppercase;
+}
+
+.ExerciseList
+{
+  list-style-type: upper-roman;
+}
+
+.ExerciseList ol
+{
+  list-style-type: lower-roman;
+}
+
+.ExerciseList ol ol
+{
+  list-style-type: lower-greek;
+}
+
+.FirstPhoto
+{
+  float: left;
+}
+
+.SecPhoto
+{
+  float: right;
+}
+
+.EndFloat
+{
+  clear: both;
+}
+
+.Main
+{
+  margin: 0px;
+  max-width: 960px;
+  padding: 5px;
+}
+
+.Contents
+{
+  display:none;
+}
+
+.Title
+{
+  width: 100%;
+  text-align: center;
+}
